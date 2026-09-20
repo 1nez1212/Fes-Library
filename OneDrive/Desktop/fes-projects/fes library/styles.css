@@ -421,7 +421,7 @@ footer {
 }
 
 .footer__logo {
-  
+
 }
 
 .footer__logo--img {
@@ -440,6 +440,7 @@ footer {
 
 .footer__link {
 padding: 0 8px;
+color: white;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
