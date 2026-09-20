@@ -101,7 +101,7 @@ li {
   right: o;
   bottom: 0;
   z-index: 100;
-  display: none;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   transition: opacity 300ms ease;
@@ -116,7 +116,7 @@ li {
 
 .menu--open {
   max-height: 100vh;
-  over-flow-y: hidden;
+  overflow-y: hidden;
 }
 
 .menu__links {
@@ -246,7 +246,7 @@ background: url('assets/wave.svg');
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
-},
+}
 
 #highlights:before {
   transform: translateY(-100%);
@@ -421,7 +421,7 @@ footer {
 }
 
 .footer__logo {
-
+display: flex;
 }
 
 .footer__logo--img {
